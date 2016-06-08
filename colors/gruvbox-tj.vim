@@ -399,6 +399,7 @@ call s:HL('GruvboxFg2', s:fg2)
 call s:HL('GruvboxFg3', s:fg3)
 call s:HL('GruvboxFg4', s:fg4)
 call s:HL('GruvboxGray', s:gray)
+call s:HL('GruvboxGrayItalic', s:gray, s:none, s:italic)
 call s:HL('GruvboxBg0', s:bg0)
 call s:HL('GruvboxBg1', s:bg1)
 call s:HL('GruvboxBg2', s:bg2)
@@ -415,6 +416,7 @@ call s:HL('GruvboxBlue', s:blue)
 call s:HL('GruvboxBlueBold', s:blue, s:none, s:bold)
 call s:HL('GruvboxPurple', s:purple)
 call s:HL('GruvboxPurpleBold', s:purple, s:none, s:bold)
+call s:HL('GruvboxPurpleItalic', s:purple, s:none, s:italic)
 call s:HL('GruvboxAqua', s:aqua)
 call s:HL('GruvboxAquaBold', s:aqua, s:none, s:bold)
 call s:HL('GruvboxOrange', s:orange)
@@ -935,6 +937,11 @@ hi! link pythonOperator GruvboxRed
 hi! link pythonExceptions GruvboxPurple
 hi! link pythonBoolean GruvboxPurple
 hi! link pythonDot GruvboxFg3
+
+" I've added:
+hi! link pythonSelf GruvboxPurpleItalic
+hi! link pythonSelfArg GruvboxGrayItalic
+hi! link pythonNone GruvboxBlueSign
 
 " }}}
 " CSS: {{{
