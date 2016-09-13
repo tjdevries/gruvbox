@@ -828,7 +828,8 @@ hi! link pythonDot GruvboxFg3
 " I've added:
 hi! link pythonSelf GruvboxPurpleItalic
 hi! link pythonSelfArg GruvboxGrayItalic
-hi! link pythonNone GruvboxBlueSign
+hi link pythonNone GruvboxBlueSign
+hi link pythonImportedObject GruvboxBlueSign
 
 " }}}
 " CSS: {{{
