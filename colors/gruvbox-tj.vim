@@ -17,7 +17,7 @@ if v:version > 580
   endif
 endif
 
-let g:colors_name='gruvbox'
+let g:colors_name='gruvbox-tj'
 
 if !has('gui_running') && &t_Co != 256
   finish
@@ -826,12 +826,6 @@ hi! link pythonOperator GruvboxRed
 hi! link pythonExceptions GruvboxPurple
 hi! link pythonBoolean GruvboxPurple
 hi! link pythonDot GruvboxFg3
-
-" I've added:
-hi! link pythonSelf GruvboxPurpleItalic
-hi! link pythonSelfArg GruvboxGrayItalic
-hi! link pythonNone GruvboxBlueSign
-hi! link pythonImportedObject GruvboxBlueSign
 
 " }}}
 " CSS: {{{
